@@ -14,7 +14,7 @@ export default function Footer() {
     <>
     <div className="pt-96 flex justify-center gap-24">
         <animated.div style={springs} ref={ref}>
-        <h1 className="flex w-fit text-8xl rounded-full bg-secundaria">Get Sta<h1 className="bg-white">rted</h1></h1>
+        <h1 className="flex text-5xl w-fit md:text-8xl rounded-full bg-secundaria">Get Sta<h1 className="bg-white">rted</h1></h1>
         </animated.div>
     </div>
     <footer className="pt-56 flex flex-col gap-12">

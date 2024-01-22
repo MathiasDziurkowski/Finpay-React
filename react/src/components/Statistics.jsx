@@ -17,17 +17,17 @@ export default function Statistics() {
 
     return(
         <animated.div ref={ref} style={springs}>
-            <div className='flex items-center gap-20'>
+            <div className='flex items-center gap-6 pb-12 md:gap-20 md:pb-0'>
             <div className='flex flex-col'>
-             <h1 className='font-raleway text-6xl text-white font-semibold'>400k+</h1>
+             <h1 className='font-raleway text-2xl md:text-6xl text-white font-semibold'>400k+</h1>
              <p className='font-raleway text-lg text-white'>User use Mobile app</p>   
              </div>
              <div className='flex flex-col'>
-                <h1 className='font-raleway text-6xl text-white font-semibold'>100+</h1>
+                <h1 className='font-raleway text-2xl md:text-6xl text-white font-semibold'>100+</h1>
                 <p className='font-raleway text-lg text-white'>Features in app</p>
              </div>
              <div className='flex flex-col'>
-                <h1 className='font-raleway text-6xl text-white font-semibold'>5.0</h1>
+                <h1 className='font-raleway text-2xl md:text-6xl text-white font-semibold'>5.0</h1>
                 <p className='font-raleway text-lg text-white'>Rating App</p>  
              </div>
             </div>
